@@ -1,0 +1,191 @@
+/* iPhone 12/13 pro max ios responsive start */
+@media (min-width: 428px) and (max-width: 575.98px) {
+    /* common css start */
+    .cmn-button a {
+        padding: 16px 20px;
+    }
+    .title h2 {
+        font-size: 32px;
+    }
+    .title p {
+        opacity: 0.3;
+    }
+    table {
+        margin-top: 34px;
+        width: 100%;
+    }
+    /* common css end */
+  /* nav start */
+  .navbar-toggler {
+    color: #ffffff !important;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  #nav .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  #nav .navbar-nav {
+	gap: 15px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+}
+.navbar-collapse {
+    background-color: #000000;
+}
+  /* nav end */
+  /* banner start */
+  #banner .banner-txt h1 {
+	font-weight: 800;
+	font-size: 50px;
+	width: 75%;
+}
+#banner .banner-txt {
+    margin-top: 50px;
+}
+#banner .banner-txt p{
+    width: 100%;
+}
+#banner .cmn-button {
+	justify-content: space-between;
+}
+#banner .banner-image .counterone .count-nmbr {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+    letter-spacing: .76;
+}
+#banner .banner-image .counterone .count-txt {
+	font-size: 9px;
+	line-height: 15px;
+	opacity: 0.75;
+}
+#banner .banner-image .counterone {
+	width: 145px;
+	height: 74px;
+	right: 15px;
+}
+#banner .banner-image .counter-two .round {
+	width: 30px;
+	height: 30px;
+}
+#banner .banner-image .counter-two {
+	gap: 10px;
+}
+#banner .banner-image .counter-two {
+	top: 45%;
+}
+  /* banner end */
+  /* habit start */
+  #habit {
+	padding: 50px 0;
+}
+#habit .card {
+	margin-top: 15px;
+}
+  /* habit end */
+  /* run start */
+  #run .run-wraper {
+	padding: 31px 33px;
+}
+#run .cmn-button{
+    width: 100%;
+    text-align: center;
+}
+#run .cmn-button a{
+    width: 100%;
+}
+#run .run-wraper {
+    row-gap: 31px;
+}
+  /* run end */
+  /* training start */
+  #training {
+	padding: 50px 0 40px;
+}
+#training .title p {
+	width: 80%;
+}
+#training .training-box .train-line {
+    width: 100%;
+}
+#training .training-box .train-line .item:nth-child(3){
+    display: none;
+}
+#training .training-box .train-line .item:nth-child(2){
+    flex-grow: 0;
+    width: 60%;
+}
+#training .training-box .train-line .item:nth-child(1){
+    width: 40%;
+    flex-grow: 0;
+}
+#training .training-box .line-two .item:nth-child(3){
+    display: none;
+}
+#training .training-box .line-two .item:nth-child(2){
+    flex-grow: 0;
+    width: 40%;
+}
+#training .training-box .line-two .item:nth-child(1){
+    flex-grow: 0;
+    width: 60%;
+}
+/* training end */
+/* BMI start */
+#bmi .title {
+	position: absolute;
+	top: -15%;
+	left: 5%;
+}
+#bmi {
+	padding: 0px 0 51px;
+	margin-top: 130px;
+}
+#bmi h3 {
+	margin-top: 34px;
+}
+/* BMI end */
+/* team start */
+#team {
+	padding: 50px 0;
+}
+#team .team-wraper {
+	padding: 13px;
+	margin: 20px auto 0;
+    width: 100%;
+}
+#team .team-wraper .team-box{
+    width: 100%;
+}
+#team .team-wraper .team-box img {
+    width: 100%;
+}
+/* team end */
+/* footer start */
+#foot {
+	padding: 51px 0 0;
+}
+.foot-wraper{
+    row-gap: 30px;
+}
+#foot ul {
+	margin: 20px 0 0 0;
+	gap: 20px;
+}
+#foot .copyright {
+	padding: 20px 0;
+	margin-top: 30px;
+	line-height: 24px;
+}
+/* footer end */
+}
+/* iPhone 12/13 pro max ios responsive end */
